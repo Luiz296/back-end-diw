@@ -1,80 +1,97 @@
 {
-  "clientes": [
-    {
-      "id": 1,
-      "nome": "João da Silva",
-      "telefone": "123456789",
-      "endereco": "Rua dos Animais, 123"
-    },
-    {
-      "id": 2,
-      "nome": "Maria Souza",
-      "telefone": "987654321",
-      "endereco": "Avenida dos Pets, 456"
-    }
+  "repols": [
+      {
+          "id": 1,
+          "titulo": "DIW",
+          "descricao": "Repositório criado para guardar todos os projetos feitos na disciplina de Desenvolvimento de Interfaces Web. Open Source.",
+          "imagem": "https://i.pinimg.com/564x/66/71/3a/66713a96b9b21dffd3a85a5d748a3171.jpg",
+          "data": "12/04/2024",
+          "linguagem": "HTML e CSS",
+          "link": "https://github.com/Luiz296/DIW",
+          "topicos":[
+              "Html",
+              "Css",
+              "BootStrap"
+          ],
+          "star": 0,
+          "view": 1,
+          "fork": 2
+      },
+      {
+          "id": 2,
+          "titulo": "PC Match",
+          "descricao": "Repositório contendo todo o projeto PC Match da discilina de Trabalho Interdiciplinar e Aplicações Web. Open Source.",
+          "imagem": "https://i.pinimg.com/736x/31/43/b3/3143b3e9b416335aac6ff7424dfe6cf9.jpg",
+          "data": "21/03/2024",
+          "linguagem": "HTML e CSS",
+          "link": "https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-compatibilidade-de-pecas-para-pc",
+          "topicos":[
+              "Html",
+              "Css",
+              "BootStrap"
+          ],
+          "star": 2,
+          "view": 1,
+          "fork": 7
+      },
+      {
+          "id": 3,
+          "titulo": "CRUD",
+          "descricao": "Repositório contendo procedimentos de Create, Read, Update and Delete em JavaScript. Open Source",
+          "imagem": "https://i.pinimg.com/564x/e0/2f/1c/e02f1c3d8d6cc659d317fe855d71b93a.jpg",
+          "data": "15/05/2024",
+          "linguagem": "HTML e CSS",
+          "link": "https://github.com/Luiz296/CRUD",
+          "topicos":[
+              "Html",
+              "Css",
+              "BootStrap"
+          ],
+          "star": 0,
+          "view": 1,
+          "fork": 2
+      }
   ],
-  "animais": [
-    {
-      "id": 1,
-      "nome": "Rex",
-      "especie": "Cachorro",
-      "raca": "Labrador",
-      "idade": 3,
-      "cliente_id": 1
-    },
-    {
-      "id": 2,
-      "nome": "Mimi",
-      "especie": "Gato",
-      "raca": "Siamês",
-      "idade": 2,
-      "cliente_id": 1
-    },
-    {
-      "id": 3,
-      "nome": "Lola",
-      "especie": "Cachorro",
-      "raca": "Poodle",
-      "idade": 5,
-      "cliente_id": 2
-    },
-    {
-      "id": 4,
-      "nome": "Nina",
-      "especie": "Gato",
-      "raca": "Persa",
-      "idade": 1,
-      "cliente_id": 2
-    }
+
+  "carrocel": [
+      {
+          "categoria": "Programacao",
+          "img": "https://i.pinimg.com/564x/fc/73/0c/fc730cf040552a5c6892f6743163e6a8.jpg"
+      },
+      {
+          "categoria": "Games",
+          "img": "https://i.pinimg.com/564x/90/4b/c8/904bc8d36618ad4ec6a94da00d09ee11.jpg"
+      },
+      {
+          "categoria": "Familia",
+          "img": "https://i.pinimg.com/564x/4b/c3/42/4bc342ade5b144979602bb740626d4de.jpg"
+      },
+      {
+          "categoria": "Música",
+          "img": "https://i.pinimg.com/564x/f0/60/c6/f060c684dfe667e99a6bc6801855dc72.jpg"
+      },
+      {
+          "categoria": "Formacao",
+          "img": "https://i.pinimg.com/564x/44/c1/fa/44c1fa04aed5cad2918a427ad0ed01a4.jpg"
+      }
   ],
-  "produtos": [
-    {
-      "id": 1,
-      "nome": "Ração para cães",
-      "marca": "Premier",
-      "preco": 50.99,
-      "quantidade_estoque": 100
-    },
-    {
-      "id": 2,
-      "nome": "Areia sanitária para gatos",
-      "marca": "Chalesco",
-      "preco": 25.99,
-      "quantidade_estoque": 50
-    }
-  ],
-  "servicos": [
-    {
-      "id": 1,
-      "nome": "Banho e tosa",
-      "preco": 80.0,
-      "duracao_minutos": 120
-    },
-    {
-      "id": 2,
-      "nome": "Consulta veterinária",
-      "preco": 120.0,
-      "duracao_minutos": 60
-    }
+
+  "colegas":[
+      {
+          "nome": "Eduardo Versiani",
+          "img": "Imagens/dudu.png",
+          "url":"https://github.com/dudu296"
+      },
+      {
+          "nome": "Allef Henrique",
+          "img": "Imagens/Alef.jpg",
+          "url":"https://github.com/AllefHenrique"
+      },
+      {
+          "nome": "Lucas Fernandes",
+          "img": "Imagens/Lucas.jpg",
+          "url":"https://github.com/lucsfn"
+      }
   ]
 }
+
